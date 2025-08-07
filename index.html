@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Cards Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: black;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    .container {
+      display: block;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 120px 20px 20px;
+    }
+
+    .card-wrapper {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .card {
+      position: relative;
+      background-color: white;
+      width: 30%;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px gray;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h2 {
+      margin: 15px 0 10px;
+      font-size: 20px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: gray;
+      margin-bottom: 15px;
+    }
+
+    .card button {
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: gray;
+    }
+
+    .badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: red;
+      color: white;
+      padding: 5px 10px;
+      font-size: 12px;
+      border-radius: 12px;
+    }
+
+    .extra-content {
+      margin-top: 60px;
+      padding: 20px;
+      line-height: 1.6;
+      background-color: white;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Our Team</h1>
+  </header>
+
+  <div class="container">
+    <div class="card-wrapper">
+      <div class="card">
+        <span class="badge">NEW</span>
+        <img src="https://thumbs.dreamstime.com/b/workload-businessman-overwork-office-manager-director-sitting-table-over-much-papers-documents-bureaucracy-vector-cartoon-135129964.jpg?w=768" alt="Profile 1" />
+        <h2>Alex</h2>
+        <p>Alex is the director who oversees company operations and leads the team with focus and clarity.</p>
+        <button>Contact</button>
+      </div>
+
+      <div class="card">
+        <span class="badge">NEW</span>
+        <img src="https://thumbs.dreamstime.com/b/business-successful-woman-office-prize-award-illustration-beautiful-businesswoman-her-holding-eps-file-available-53357259.jpg?w=768" alt="Profile 2" />
+        <h2>Michelle</h2>
+        <p>Michelle is the deputy director who ensures daily tasks run smoothly and supports the entire team.</p>
+        <button>Contact</button>
+      </div>
+
+      <div class="card">
+        <span class="badge">NEW</span>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjnPAjzmxrWOowrUkxF5sIBQ1WVTNlfftwcQ&s" alt="Profile 3" />
+        <h2>Michael</h2>
+        <p>Michael is the general manager who coordinates everyday business activities and improves performance.</p>
+        <button>Contact</button>
+      </div>
+    </div>
+
+    <div class="extra-content">
+      <h2>About Our Team</h2>
+      <p>
+      Alex, our Director, leads the overall operations of the company with a clear vision and a steady hand. He coordinates between departments, sets strategic goals, and ensures that projects are completed on time and to the highest standard. His ability to foresee potential challenges and address them early keeps the organization operating smoothly and effectively.
+
+        Supporting him is Michelle, our Deputy Director, who plays a crucial role in managing daily functions and assisting with decision-making. She works closely with both the leadership team and employees to ensure processes are efficient and aligned with company objectives. Michelle’s approachable nature and attention to detail help maintain a collaborative and productive work environment.
+      </p>
+      <br>
+      <p>
+       On the ground, Michael, our General Manager, oversees the day-to-day operations that keep the business running. He manages schedules, monitors performance, and ensures that resources are used effectively. Michael’s practical approach and strong leadership skills ensure that the team remains focused, motivated, and committed to delivering excellent results.One of Alex’s greatest strengths is his ability to foresee challenges before they become problems. He closely monitors market trends, technological developments, and changes in client needs, enabling him to anticipate shifts that may affect the company’s operations. When the industry began moving toward digital transformation, Alex was one of the first to recognize its importance and led the company through a successful transition to more modern systems. This foresight allowed the organization to gain a competitive edge, improve productivity, and offer services that matched the evolving needs of customers. His leadership style is inclusive, encouraging input from all levels of the organization. He firmly believes that valuable insights can come from anywhere — whether it’s a junior employee working on the front lines or a senior manager with years of experience. This openness to ideas fosters a culture of innovation and collaboration that runs throughout the company.
+
+        Working alongside him is Michelle, our Deputy Director, whose role is both supportive and deeply involved in operational execution. While Alex focuses on high-level strategy and long-term planning, Michelle ensures that these plans are translated into actionable steps and carried out effectively. She is often described as the “operational glue” of the company, making sure that all parts of the business are working together seamlessly. Michelle’s day typically involves coordinating between different teams, monitoring progress on active projects, and addressing any operational bottlenecks before they can slow things down. She has an exceptional talent for multitasking — moving between budget discussions, HR concerns, and workflow optimizations without losing focus or attention to detail. Her ability to balance the big picture with the fine details is one of the reasons the company’s operations remain smooth even during high-pressure situations.
+
+        Michelle also plays a vital role in employee engagement and team morale. She frequently meets with staff members across all levels to gather feedback, address concerns, and offer guidance. Her approachable and empathetic nature makes her a trusted figure among employees, someone they can turn to when they need advice or support. She understands that a motivated team is a productive team, and she takes deliberate steps to create a positive and collaborative work environment. For example, she has implemented initiatives such as monthly recognition programs, cross-department training sessions, and open forums where employees can share improvement ideas directly with leadership. These efforts not only strengthen team cohesion but also ensure that employees feel valued and heard — key factors in maintaining high performance and retention rates.
+
+        At the operational core is Michael, our General Manager, who ensures that the company’s daily activities run without disruption. While Alex sets the vision and Michelle coordinates its execution, Michael is the one making sure that every task on the ground is completed to the highest standard. His work involves managing schedules, overseeing supply chains, coordinating client service delivery, and keeping an eye on quality control. Michael is highly detail-oriented and believes that operational excellence comes from consistency and discipline. Whether it’s meeting deadlines, maintaining equipment, or ensuring that customers receive outstanding service, Michael takes ownership of the company’s day-to-day performance. His ability to adapt quickly to changes — such as urgent client requests or last-minute logistical issues — ensures that operations continue smoothly even under unexpected circumstances.
+
+        Michael’s leadership style is hands-on and team-focused. He believes in being present on the work floor, engaging directly with employees, and understanding their daily challenges. This approach not only helps him identify and address potential issues early but also builds trust and respect among the staff. His team knows that he leads by example — if there’s a problem to solve, Michael is the first to roll up his sleeves and help. He also places strong emphasis on training and development, regularly arranging skill-building workshops to ensure that employees are equipped to perform at their best. This commitment to continuous improvement has had a direct impact on efficiency and service quality, both of which are critical to the company’s reputation and success.
+        Together, Alex, Michelle, and Michael form a leadership team that is both balanced and highly effective. Alex provides the strategic direction, ensuring the company is always moving toward long-term goals. Michelle bridges strategy and execution, translating vision into reality while maintaining smooth coordination across teams. Michael executes with precision, overseeing the details that keep the business running day after day. This combination of skills and responsibilities creates a leadership structure that is both resilient and adaptable. It allows the company to operate effectively in a fast-changing business environment while maintaining the stability that employees and clients value.
+        Their collaborative approach is one of the reasons the company has been able to navigate industry challenges successfully. When an unexpected market shift occurred last year, the three worked together to realign resources, adjust operational strategies, and maintain service levels without any significant disruptions. Alex analyzed the broader market implications, Michelle reorganized team workflows to match new priorities, and Michael ensured the changes were implemented effectively on the ground. The result was a smooth transition that kept clients satisfied and the business on track.
+        This teamwork extends beyond problem-solving — it’s also evident in their shared commitment to growth. They regularly meet to discuss new opportunities, whether it’s expanding into new markets, adopting new technologies, or developing innovative service offerings. Their combined leadership ensures that decisions are well-informed, thoroughly planned, and executed efficiently. This alignment between vision, coordination, and execution is what makes the company’s operations strong, stable, and future-ready.
+        In essence, Alex, Michelle, and Michael are not just leaders; they are the backbone of the company’s operational success. Each brings unique strengths that complement the others, creating a leadership team that is greater than the sum of its parts. Through their dedication, skill, and collaboration, they ensure that the company operates at its best — today, tomorrow, and well into the future. Michael, our General Manager, is the operational heartbeat of the company’s daily activities. His role involves hands-on management of staff, scheduling, resource allocation, and quality control. Michael takes charge of ensuring that every task, from the smallest detail to the largest project, is executed on time and meets the company’s quality expectations. He monitors progress closely, addresses issues as they arise, and works tirelessly to keep the team motivated and focused. His practical approach to management allows him to respond quickly to unexpected changes or challenges without compromising workflow. Michael has an exceptional ability to coordinate between departments, ensuring smooth communication and collaboration. Under his watch, the team remains productive, deadlines are met, and the overall operation runs like a well-oiled machine. His leadership complements the strategic oversight of Alex and the coordinating role of Michelle, creating a seamless and efficient operational structure that keeps the company moving forward.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
